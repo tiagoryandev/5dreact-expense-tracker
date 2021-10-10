@@ -4,7 +4,6 @@ import { Container, Header, HeaderText, Body } from "./styles";
 import GlobalStyles from "./styles/GlobalStyles"
 
 import { Item } from "./types/Item";
-import { Category } from "./types/Category";
 import { items } from "./data/items";
 import { categories } from "./data/categories";
 import { getCurrentMonth, filterListByMonth } from "./helpers/dateFilter";
